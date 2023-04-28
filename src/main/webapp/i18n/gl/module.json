@@ -1,0 +1,28 @@
+{
+  "jhipsterTaskMApplicationApp": {
+    "module": {
+      "home": {
+        "title": "Modules",
+        "refreshListLabel": "Refresh list",
+        "createLabel": "Crear novo Module",
+        "createOrEditLabel": "Crear ou editar Module",
+        "notFound": "No Modules found"
+      },
+      "created": "Un novo Module foi creado co identificador {{ param }}",
+      "updated": "Un Module foi actualizado co identificador {{ param }}",
+      "deleted": "Un Module foi eliminado co identificador {{ param }}",
+      "delete": {
+        "question": "Seguro que desexa eliminar Module {{ id }}?"
+      },
+      "detail": {
+        "title": "Module"
+      },
+      "id": "ID",
+      "moduleName": "Module Name",
+      "startDate": "Start Date",
+      "endDate": "End Date",
+      "task": "Task",
+      "project": "Project"
+    }
+  }
+}

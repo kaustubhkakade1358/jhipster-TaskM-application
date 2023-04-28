@@ -1,0 +1,30 @@
+{
+  "jhipsterTaskMApplicationApp": {
+    "task": {
+      "home": {
+        "title": "Tasks",
+        "refreshListLabel": "Refresh list",
+        "createLabel": "Crear novo Task",
+        "createOrEditLabel": "Crear ou editar Task",
+        "notFound": "No Tasks found"
+      },
+      "created": "Un novo Task foi creado co identificador {{ param }}",
+      "updated": "Un Task foi actualizado co identificador {{ param }}",
+      "deleted": "Un Task foi eliminado co identificador {{ param }}",
+      "delete": {
+        "question": "Seguro que desexa eliminar Task {{ id }}?"
+      },
+      "detail": {
+        "title": "Task"
+      },
+      "id": "ID",
+      "title": "Title",
+      "description": "Description",
+      "startTime": "Start Time",
+      "endTime": "End Time",
+      "module": "Module",
+      "project": "Project",
+      "employee": "Employee"
+    }
+  }
+}

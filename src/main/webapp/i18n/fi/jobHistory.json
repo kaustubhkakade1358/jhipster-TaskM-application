@@ -1,0 +1,27 @@
+{
+  "jhipsterTaskMApplicationApp": {
+    "jobHistory": {
+      "home": {
+        "title": "Job Histories",
+        "refreshListLabel": "Refresh list",
+        "createLabel": "Luo Job History",
+        "createOrEditLabel": "Luo tai muokkaa Job History",
+        "notFound": "Job History ei löytynyt"
+      },
+      "created": "Uusi Job History on luotu, id: {{ param }}",
+      "updated": "Job History on päivitetty, id: {{ param }}",
+      "deleted": "Job History on päivitetty, id: {{ param }}",
+      "delete": {
+        "question": "Haluatko varmasti poistaa Job History {{ id }}?"
+      },
+      "detail": {
+        "title": "Job History"
+      },
+      "id": "ID",
+      "startDate": "Start Date",
+      "endDate": "End Date",
+      "department": "Department",
+      "employee": "Employee"
+    }
+  }
+}

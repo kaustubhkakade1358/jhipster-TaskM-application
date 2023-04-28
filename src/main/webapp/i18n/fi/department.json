@@ -1,0 +1,26 @@
+{
+  "jhipsterTaskMApplicationApp": {
+    "department": {
+      "home": {
+        "title": "Departments",
+        "refreshListLabel": "Refresh list",
+        "createLabel": "Luo Department",
+        "createOrEditLabel": "Luo tai muokkaa Department",
+        "notFound": "Department ei löytynyt"
+      },
+      "created": "Uusi Department on luotu, id: {{ param }}",
+      "updated": "Department on päivitetty, id: {{ param }}",
+      "deleted": "Department on päivitetty, id: {{ param }}",
+      "delete": {
+        "question": "Haluatko varmasti poistaa Department {{ id }}?"
+      },
+      "detail": {
+        "title": "Department"
+      },
+      "id": "ID",
+      "departmentName": "Department Name",
+      "employee": "Employee",
+      "project": "Project"
+    }
+  }
+}
