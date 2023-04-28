@@ -1,0 +1,42 @@
+{
+  "applications": "*",
+  "changelogDate": "20230428090314",
+  "dto": "no",
+  "embedded": false,
+  "entityTableName": "module",
+  "fields": [
+    {
+      "fieldName": "moduleName",
+      "fieldType": "String",
+      "fieldValidateRules": ["required"]
+    },
+    {
+      "fieldName": "startDate",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "endDate",
+      "fieldType": "String"
+    }
+  ],
+  "fluentMethods": true,
+  "jpaMetamodelFiltering": false,
+  "name": "Module",
+  "pagination": "pagination",
+  "readOnly": false,
+  "relationships": [
+    {
+      "otherEntityName": "task",
+      "otherEntityRelationshipName": "module",
+      "relationshipName": "task",
+      "relationshipType": "one-to-many"
+    },
+    {
+      "otherEntityName": "project",
+      "otherEntityRelationshipName": "module",
+      "relationshipName": "project",
+      "relationshipType": "many-to-one"
+    }
+  ],
+  "service": "serviceImpl"
+}

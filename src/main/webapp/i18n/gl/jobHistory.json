@@ -1,0 +1,27 @@
+{
+  "jhipsterTaskMApplicationApp": {
+    "jobHistory": {
+      "home": {
+        "title": "JobHistories",
+        "refreshListLabel": "Refresh list",
+        "createLabel": "Crear novo Job History",
+        "createOrEditLabel": "Crear ou editar Job History",
+        "notFound": "No Job Histories found"
+      },
+      "created": "Un novo Job History foi creado co identificador {{ param }}",
+      "updated": "Un Job History foi actualizado co identificador {{ param }}",
+      "deleted": "Un Job History foi eliminado co identificador {{ param }}",
+      "delete": {
+        "question": "Seguro que desexa eliminar Job History {{ id }}?"
+      },
+      "detail": {
+        "title": "Job History"
+      },
+      "id": "ID",
+      "startDate": "Start Date",
+      "endDate": "End Date",
+      "department": "Department",
+      "employee": "Employee"
+    }
+  }
+}
