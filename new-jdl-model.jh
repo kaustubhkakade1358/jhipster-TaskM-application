@@ -1,0 +1,121 @@
+
+
+entity Role {
+	role String required
+}
+
+
+entity Project {
+	projectName String required,
+    startDate String,
+	endDate String,
+}
+
+
+entity Module {
+	moduleName String required,
+    startDate String,
+	endDate String,
+}
+
+entity Department {
+	departmentName String required,
+}
+
+/**
+ * Task entity.
+ * @author The JHipster team.
+ */
+entity Task {
+	title String required,
+	description String,
+    startTime String,
+	endTime String,
+  
+}
+
+/**
+ * The Employee entity.
+ */
+entity Employee {
+	/**
+	* The firstname attribute.
+	*/
+    
+	firstName String required,
+	lastName String required,
+	email String,
+	phoneNumber String,
+    salary Long,
+
+}
+
+
+
+
+
+entity JobHistory {
+	startDate String,
+	endDate String,
+	
+}
+
+
+
+relationship OneToMany {
+	Project to Module
+}
+
+
+relationship OneToMany {
+	Module to Task
+}
+
+relationship OneToMany {
+	Project to Task
+}
+
+relationship ManyToMany {
+	Employee to Role
+}
+
+// defining multiple OneToMany relationships with comments
+relationship OneToMany {
+	Employee to Task,
+	/**
+	* A relationship
+	*/
+	Department to
+	/**
+	* Another side of the same relationship
+	*/
+	Employee
+    
+    Project to Department
+}
+
+
+
+// defining multiple oneToOne relationships
+relationship OneToOne {
+
+	JobHistory{department} to Department,
+	JobHistory{employee} to Employee
+}
+
+// Set pagination options
+paginate JobHistory, Employee , Task, Project, Module with infinite-scroll
+paginate  Task, Project, Module with pagination
+
+// Use Data Transfer Objects (DTO)
+// dto * with mapstruct
+
+// Set service options to all except few
+service all with serviceImpl
+
+dto all
+
+
+
+// Set an angular suffix
+// angularSuffix * with mySuffix
