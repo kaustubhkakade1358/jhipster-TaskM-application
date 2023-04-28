@@ -1,0 +1,28 @@
+{
+  "jhipsterTaskMApplicationApp": {
+    "module": {
+      "home": {
+        "title": "Modules",
+        "refreshListLabel": "Värskenda nimekirja",
+        "createLabel": "Lisa uus Module",
+        "createOrEditLabel": "Lisa või muuda Module",
+        "notFound": "Ei leitud ühtegi Modules"
+      },
+      "created": "Uus Module on loodud identifikaatoriga {{ param }}",
+      "updated": "Module identifikaatoriga {{ param }} on muudetud",
+      "deleted": "Module identifikaatoriga {{ param }} on kustutatud",
+      "delete": {
+        "question": "Kas olete kindel, et soovite kustutada Module {{ id }}?"
+      },
+      "detail": {
+        "title": "Module"
+      },
+      "id": "ID",
+      "moduleName": "Module Name",
+      "startDate": "Start Date",
+      "endDate": "End Date",
+      "task": "Task",
+      "project": "Project"
+    }
+  }
+}

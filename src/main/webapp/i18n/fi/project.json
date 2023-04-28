@@ -1,0 +1,29 @@
+{
+  "jhipsterTaskMApplicationApp": {
+    "project": {
+      "home": {
+        "title": "Projects",
+        "refreshListLabel": "Refresh list",
+        "createLabel": "Luo Project",
+        "createOrEditLabel": "Luo tai muokkaa Project",
+        "notFound": "Project ei löytynyt"
+      },
+      "created": "Uusi Project on luotu, id: {{ param }}",
+      "updated": "Project on päivitetty, id: {{ param }}",
+      "deleted": "Project on päivitetty, id: {{ param }}",
+      "delete": {
+        "question": "Haluatko varmasti poistaa Project {{ id }}?"
+      },
+      "detail": {
+        "title": "Project"
+      },
+      "id": "ID",
+      "projectName": "Project Name",
+      "startDate": "Start Date",
+      "endDate": "End Date",
+      "module": "Module",
+      "task": "Task",
+      "department": "Department"
+    }
+  }
+}

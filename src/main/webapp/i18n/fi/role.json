@@ -1,0 +1,25 @@
+{
+  "jhipsterTaskMApplicationApp": {
+    "role": {
+      "home": {
+        "title": "Roles",
+        "refreshListLabel": "Refresh list",
+        "createLabel": "Luo Role",
+        "createOrEditLabel": "Luo tai muokkaa Role",
+        "notFound": "Role ei löytynyt"
+      },
+      "created": "Uusi Role on luotu, id: {{ param }}",
+      "updated": "Role on päivitetty, id: {{ param }}",
+      "deleted": "Role on päivitetty, id: {{ param }}",
+      "delete": {
+        "question": "Haluatko varmasti poistaa Role {{ id }}?"
+      },
+      "detail": {
+        "title": "Role"
+      },
+      "id": "ID",
+      "role": "Role",
+      "employee": "Employee"
+    }
+  }
+}

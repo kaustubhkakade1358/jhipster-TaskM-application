@@ -48,6 +48,21 @@ public class CacheConfiguration {
             createCache(cm, com.kk.taskmanagerapp.domain.User.class.getName());
             createCache(cm, com.kk.taskmanagerapp.domain.Authority.class.getName());
             createCache(cm, com.kk.taskmanagerapp.domain.User.class.getName() + ".authorities");
+            createCache(cm, com.kk.taskmanagerapp.domain.Role.class.getName());
+            createCache(cm, com.kk.taskmanagerapp.domain.Role.class.getName() + ".employees");
+            createCache(cm, com.kk.taskmanagerapp.domain.Project.class.getName());
+            createCache(cm, com.kk.taskmanagerapp.domain.Project.class.getName() + ".modules");
+            createCache(cm, com.kk.taskmanagerapp.domain.Project.class.getName() + ".tasks");
+            createCache(cm, com.kk.taskmanagerapp.domain.Project.class.getName() + ".departments");
+            createCache(cm, com.kk.taskmanagerapp.domain.Module.class.getName());
+            createCache(cm, com.kk.taskmanagerapp.domain.Module.class.getName() + ".tasks");
+            createCache(cm, com.kk.taskmanagerapp.domain.Department.class.getName());
+            createCache(cm, com.kk.taskmanagerapp.domain.Department.class.getName() + ".employees");
+            createCache(cm, com.kk.taskmanagerapp.domain.Task.class.getName());
+            createCache(cm, com.kk.taskmanagerapp.domain.Employee.class.getName());
+            createCache(cm, com.kk.taskmanagerapp.domain.Employee.class.getName() + ".tasks");
+            createCache(cm, com.kk.taskmanagerapp.domain.Employee.class.getName() + ".roles");
+            createCache(cm, com.kk.taskmanagerapp.domain.JobHistory.class.getName());
             // jhipster-needle-ehcache-add-entry
         };
     }

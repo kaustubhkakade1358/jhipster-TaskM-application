@@ -1,0 +1,37 @@
+{
+  "applications": "*",
+  "changelogDate": "20230428085957",
+  "dto": "no",
+  "embedded": false,
+  "entityTableName": "job_history",
+  "fields": [
+    {
+      "fieldName": "startDate",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "endDate",
+      "fieldType": "String"
+    }
+  ],
+  "fluentMethods": true,
+  "jpaMetamodelFiltering": false,
+  "name": "JobHistory",
+  "pagination": "infinite-scroll",
+  "readOnly": false,
+  "relationships": [
+    {
+      "otherEntityName": "department",
+      "ownerSide": true,
+      "relationshipName": "department",
+      "relationshipType": "one-to-one"
+    },
+    {
+      "otherEntityName": "employee",
+      "ownerSide": true,
+      "relationshipName": "employee",
+      "relationshipType": "one-to-one"
+    }
+  ],
+  "service": "serviceImpl"
+}

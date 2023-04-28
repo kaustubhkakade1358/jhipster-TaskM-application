@@ -1,0 +1,30 @@
+{
+  "jhipsterTaskMApplicationApp": {
+    "task": {
+      "home": {
+        "title": "Tasks",
+        "refreshListLabel": "Refresh list",
+        "createLabel": "Luo Task",
+        "createOrEditLabel": "Luo tai muokkaa Task",
+        "notFound": "Task ei löytynyt"
+      },
+      "created": "Uusi Task on luotu, id: {{ param }}",
+      "updated": "Task on päivitetty, id: {{ param }}",
+      "deleted": "Task on päivitetty, id: {{ param }}",
+      "delete": {
+        "question": "Haluatko varmasti poistaa Task {{ id }}?"
+      },
+      "detail": {
+        "title": "Task"
+      },
+      "id": "ID",
+      "title": "Title",
+      "description": "Description",
+      "startTime": "Start Time",
+      "endTime": "End Time",
+      "module": "Module",
+      "project": "Project",
+      "employee": "Employee"
+    }
+  }
+}

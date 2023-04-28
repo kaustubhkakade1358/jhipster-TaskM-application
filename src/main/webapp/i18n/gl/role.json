@@ -1,0 +1,25 @@
+{
+  "jhipsterTaskMApplicationApp": {
+    "role": {
+      "home": {
+        "title": "Roles",
+        "refreshListLabel": "Refresh list",
+        "createLabel": "Crear novo Role",
+        "createOrEditLabel": "Crear ou editar Role",
+        "notFound": "No Roles found"
+      },
+      "created": "Un novo Role foi creado co identificador {{ param }}",
+      "updated": "Un Role foi actualizado co identificador {{ param }}",
+      "deleted": "Un Role foi eliminado co identificador {{ param }}",
+      "delete": {
+        "question": "Seguro que desexa eliminar Role {{ id }}?"
+      },
+      "detail": {
+        "title": "Role"
+      },
+      "id": "ID",
+      "role": "Role",
+      "employee": "Employee"
+    }
+  }
+}
